@@ -32,6 +32,8 @@ func main() {
 
 	PrintShoeDetails(nikeShoe)
 	PrintShirtDetails(nikeShirt)
+
+	log.Println()
 }
 
 func PrintShoeDetails(s IShoe) {
